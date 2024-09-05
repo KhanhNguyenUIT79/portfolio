@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khanh Nguyen's Personal Webpage</title>
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+            background: linear-gradient( skyblue, rgba(255, 192, 234, 0.85));
+            background-repeat: no repeat;
+            background-attachment: fixed;
+            margin: 0;
+            height: 100%;
+        }
+        section{
+    
+            padding: 20px;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.171);
+        }
+        header{
+            
+            background-color:rgb(128, 128, 128);
+            color:white;
+            text-align: center;
+            font-weight: 1000;
+            padding: 0;
+            margin: 0;
+        }
+        h2{
+            margin-bottom: 1px;
+            font-weight: 1000;
+        }
+        #main-container{
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        footer{
+            background-color:rgb(128, 128, 128);
+            color:white;
+            text-align: center;
+            font-weight: 1000;
+            padding: 0;
+            margin: 0;
+        }
+        .contact-label{
+            width: 70px;
+            display: inline-block;
+            height: 33px;
+        }
+        button{
+            max-width:1200px;
+        }
+        input{
+            width: 1200px;
+            height: 30px;
+        }
+        textarea{
+            width: 1200px;
+            height: 30px;
+        }
+        form input[type="submit"] {
+            background:linear-gradient(black, green);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover{
+            background: black;
+            color: red;
+        }
+        marquee:hover{
+            color: red;
+        }
+        marquee:visited{
+            color:green;
+        }
+        a:hover{
+            color:red;
+        }
+        
+        
+    </style>
+</head>
+<body> 
+
+    <header>
+        <section>
+            <h2> KhanhNguyen</h2>
+            <p>From Le Quy Don high school for gifted student</p>
+        </section>
+    </header>
+    <div id="main-container">
+        <marquee direction="right">
+            <a href="youtube.com" target="blank">
+                Contact
+            </a>
+        </marquee>
+    </div>
+    <section id="main-container"> 
+        <h2>
+            About me
+        </h2>
+        <p> Hi! I'm fifteen years old. I from Nha Trang in Vietnam. I'm study in Le Quy Don high school for gifted students, in class 10 IT. </p>
+        <p> I have a passion with IT. And this is my first web I made. Thank you! </p>
+    </section>
+
+    <section id="main-container">
+        <h2>Projects</h2>
+        <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML+CSS</li>
+        </ul>
+    </section>
+
+    <section id="main-container">
+        <h2>Contact</h2>
+        <ul>
+            <li> <a href="mailto:https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> My email: criskhanhnguyen79@gmail.com</a>  </li>
+        </ul>
+        <form>
+            <div>
+                <lable for="name"  class="contact-label">Name:</lable>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email" class="contact-label">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <lable for="message" class="contact-label"> Message:</lable>
+                <textarea id="message" name="message" rows="8" required></textarea>
+
+            </div>
+            <input type="submit">
+        </form>
+    </section>
+    
+    <footer >
+        <section>
+            <h2>Goodbye</h2>
+        </section>
+    </footer>
+</body>
+</html>
